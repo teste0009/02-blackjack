@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+  </head>
+  <body>
+    <header class="titulo">BLACKJACK</header>
+
+    <div class="row mt-2">
+      <div id="botonera" class="col text-center">
+        <button id="btnNuevoJuego" class="btn btn-danger">Nuevo Juego</button>
+        <button id="btnPedirCarta" class="btn btn-primary" disabled>Pedir Carta</button>
+        <button id="btnDetener" class="btn btn-primary" disabled>Detener</button>
+      </div>
+    </div>
+
+    <div class="row container">
+      <div class="col">
+        <h1>Jugador 1 - <small>0</small></h1>
+
+        <div id="carta-jugador">
+          <!-- <img class="carta" src="assets/cartas/2C.png" alt=""> -->
+
+        </div>
+      </div>
+    </div>
+
+    <div class="row container">
+      <div class="col">
+        <h1>Computador 2 - <small>0</small></h1>
+
+        <div id="carta-computador">
+          <!-- <img class="carta" src="assets/cartas/2P.png" alt=""> -->
+
+        </div>
+      </div>
+    </div>
+
+    <script src="assets/js/underscore-umd-min.js"></script>
+    <script src="assets/js/juego.js"></script>
+  </body>
+</html>
